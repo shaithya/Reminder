@@ -1,0 +1,9 @@
+DATABASE CREATION:
+
+CREATE DATABASE test;
+
+TABLE CREATION:
+
+CREATE TABLE reminders(id int primary key auto_increment,
+			date varchar(20) not null,
+			note varchar(60) not null);
