@@ -1,0 +1,41 @@
+<HTML>
+    
+
+    <BODY>
+		
+        <FORM NAME="form1" METHOD="POST">
+            
+            <INPUT TYPE="BUTTON" VALUE="CREATE" ONCLICK="doSubmit1();"><br><br>
+            <INPUT TYPE="BUTTON" VALUE="UPDATE" ONCLICK="doSubmit2();"><br><br>
+            <INPUT TYPE="BUTTON" VALUE="VIEW" ONCLICK="doSubmit3();"><br><br>
+        </FORM>
+
+        <SCRIPT LANGUAGE="JavaScript">
+            
+            function doSubmit1()
+{
+
+window.transfer("create.jsp");
+
+}
+
+            function doSubmit2()
+{
+
+window.transfer("updatepg.jsp");
+
+}
+
+            function doSubmit3()
+{
+
+window.transfer("view.jsp");
+
+}
+
+           
+        </SCRIPT>
+    </BODY>
+</HTML>
+
+
