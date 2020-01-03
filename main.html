@@ -1,21 +1,26 @@
 <HTML>
-    
+        <head>
+                <link rel="stylesheet" type="text/css" href="main-style.css">
+                </head>
 
     <BODY>
-		
+		<div>
+            <H1>REMINDERS</H1><BR></BR>
         <FORM NAME="form1" METHOD="POST">
-            
-            <INPUT TYPE="BUTTON" VALUE="CREATE" ONCLICK="doSubmit1();"><br><br>
-            <INPUT TYPE="BUTTON" VALUE="UPDATE" ONCLICK="doSubmit2();"><br><br>
-            <INPUT TYPE="BUTTON" VALUE="VIEW" ONCLICK="doSubmit3();"><br><br>
-        </FORM>
+            <TABLE ALIGN="center">
+            <TR><TD>
+            <INPUT TYPE="BUTTON" VALUE="CREATE" ONCLICK="doSubmit1();"></TD>
+            <TD><INPUT TYPE="BUTTON" VALUE="UPDATE" ONCLICK="doSubmit2()"></TD>
+            <TD><INPUT TYPE="BUTTON" VALUE="VIEW" ONCLICK="doSubmit3()"></TD></TR>
+       
+            </TABLE>     </FORM></div>
 
         <SCRIPT LANGUAGE="JavaScript">
             
             function doSubmit1()
 {
 
-window.transfer("create.jsp");
+window.transfer("createpg.html");
 
 }
 
@@ -37,5 +42,11 @@ window.transfer("view.jsp");
         </SCRIPT>
     </BODY>
 </HTML>
+
+
+
+
+
+
 
 
